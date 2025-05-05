@@ -1,5 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, ImageBackground } from 'react-native';
 
 export default function App() {
   return (
@@ -8,6 +8,10 @@ export default function App() {
       <StatusBar style="auto" />
     </View>
   );
+}
+
+const App = () => {
+  
 }
 
 const styles = StyleSheet.create({
