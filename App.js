@@ -1,8 +1,8 @@
 import { StatusBar } from 'expo-status-bar';
 import React, { useState } from "react";
-import { Button, StyleSheet, Text, View, ImageBackground } from 'react-native';
+import { Button, StyleSheet, Text, View, ImageBackground, Alert } from 'react-native';
 
-const imgExterna = {url: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fes%2Ffotos%2Fnight-sky&psig=AOvVaw1Lt7r7-hbWruGfv3dgRsnE&ust=1746878493116000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPCu8dOrlo0DFQAAAAAdAAAAABAE"};
+const imgExterna = {url: "https://media.istockphoto.com/id/536507269/es/foto/cielo-de-noche-con-estrellas-brillantes-y-nebulosa-azul.jpg?s=612x612&w=0&k=20&c=s_K7BtzFsyT7sBVMk_WLvLVuk10ycvhXsx6lgQYnta0="};
 
 export default function App() {
   	return (
